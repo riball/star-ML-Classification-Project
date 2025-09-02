@@ -1,11 +1,11 @@
-# ⭐ Star Type Classification
+⭐ Star Type Classification
 
 
-# 📌 Short Description
+📌 Short Description
 
 This project classifies stars into six categories—Red Dwarf, Brown Dwarf, White Dwarf, Main Sequence, Super Giants, and Hyper Giants—based on physical properties like temperature, luminosity, radius, absolute magnitude, color, and spectral class. It demonstrates a complete ML workflow including data preprocessing, visualization, model training (Random Forest & SVC), evaluation, and probability calibration.
 
-# 📂 Dataset Details
+📂 Dataset Details
 
 Features:
 
@@ -53,23 +53,6 @@ Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
 Optional: TensorFlow/Keras for deep learning experimentation
 
-🚀 Usage
-
-Clone the repository:
-
-git clone https://github.com/your-username/star-type-classification.git
-cd star-type-classification
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run the notebook or script:
-
-jupyter notebook star_classification.ipynb
-
 📊 Output & Visualizations
 
 Correlation heatmaps and scatter plots
@@ -88,6 +71,15 @@ SVC with Calibration: Lower raw accuracy, but better-calibrated probability pred
 
 Probability calibration improves reliability of predictions for multi-class classification
 
+### HR Diagram of Star Types
+![HR Diagram](images/hr_diagram.png)
+
+### Random Forest Confusion Matrix
+![RF Confusion Matrix](images/confusion_matrix_rf.png)
+
+### SVC Calibration Curve
+![SVC Calibration](images/calibration_curve.png)
+
 🚀 Future Work
 
 Hyperparameter tuning using GridSearchCV/RandomizedSearchCV
@@ -98,8 +90,3 @@ Advanced calibration techniques (Platt scaling, Isotonic Regression)
 
 Cross-validation for robust performance evaluation
 
-📌 References
-
-Hertzsprung–Russell Diagram
-
-SMASS Asteroid Spectral Types
