@@ -74,13 +74,13 @@ SVC with Calibration: Produced more reliable probability predictions with a mult
 Overall Insight: Incorporating probability calibration improves the reliability of model predictions, which is especially useful for multi-class classification tasks like star type prediction.
 
 ### HR Diagram of Star Types
-![HR Diagram](star-ML-Classification-Project/images/hr_diagram.png)
+![HR Diagram](images/hr_diagram.png)
 
 ### Random Forest Confusion Matrix
-![RF Confusion Matrix](star-ML-Classification-Project/images/confusion_matrix_rf.png)
+![RF Confusion Matrix](images/confusion_matrix_rf.png)
 
 ### SVC Calibration Curve
-![SVC Calibration](star-ML-Classification-Project/images/calibration_curve.png)
+![SVC Calibration](images/calibration_curve.png)
 
 ## 🚀 Future Work
 
