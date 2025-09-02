@@ -1,11 +1,11 @@
 # ⭐ Star Type Classification
 
 
-# 📌 Short Description
+## 📌 Short Description
 
 This project classifies stars into six categories—Red Dwarf, Brown Dwarf, White Dwarf, Main Sequence, Super Giants, and Hyper Giants—based on physical properties like temperature, luminosity, radius, absolute magnitude, color, and spectral class. It demonstrates a complete ML workflow including data preprocessing, visualization, model training (Random Forest & SVC), evaluation, and probability calibration.
 
-# 📂 Dataset Details
+## 📂 Dataset Details
 
 Features:
 
@@ -34,7 +34,7 @@ Type (0–5) → Star type
 | 5 | Hyper Giants |
 
 
-# 🎯 Project Goals
+## 🎯 Project Goals
 
 Perform Exploratory Data Analysis (EDA) to visualize patterns and correlations.
 
@@ -46,14 +46,14 @@ Evaluate models using accuracy, confusion matrices, classification reports, and 
 
 Compare models’ predictions and build a reliable star type classifier.
 
-# Tech Stack
+## Tech Stack
 
 Language: Python 3.x
 
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
 
-# 📊 Output & Visualizations
+## 📊 Output & Visualizations
 
 Correlation heatmaps and scatter plots
 
@@ -78,7 +78,7 @@ Overall Insight: Incorporating probability calibration improves the reliability 
 ### SVC Calibration Curve
 ![SVC Calibration](images/calibration_curve.png)
 
-# 🚀 Future Work
+## 🚀 Future Work
 
 Hyperparameter tuning using GridSearchCV/RandomizedSearchCV
 
