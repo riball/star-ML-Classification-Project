@@ -1,11 +1,11 @@
-⭐ Star Type Classification
+# ⭐ Star Type Classification
 
 
-📌 Short Description
+# 📌 Short Description
 
 This project classifies stars into six categories—Red Dwarf, Brown Dwarf, White Dwarf, Main Sequence, Super Giants, and Hyper Giants—based on physical properties like temperature, luminosity, radius, absolute magnitude, color, and spectral class. It demonstrates a complete ML workflow including data preprocessing, visualization, model training (Random Forest & SVC), evaluation, and probability calibration.
 
-📂 Dataset Details
+# 📂 Dataset Details
 
 Features:
 
@@ -33,7 +33,8 @@ Type (0–5) → Star type
 | 4 | Super Giants |
 | 5 | Hyper Giants |
 
-🎯 Project Goals
+
+# 🎯 Project Goals
 
 Perform Exploratory Data Analysis (EDA) to visualize patterns and correlations.
 
@@ -45,15 +46,14 @@ Evaluate models using accuracy, confusion matrices, classification reports, and 
 
 Compare models’ predictions and build a reliable star type classifier.
 
-⚙️ Tech Stack
+# Tech Stack
 
 Language: Python 3.x
 
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
-Optional: TensorFlow/Keras for deep learning experimentation
 
-📊 Output & Visualizations
+# 📊 Output & Visualizations
 
 Correlation heatmaps and scatter plots
 
@@ -63,13 +63,11 @@ Confusion matrices & classification reports for models
 
 Calibration curves and Brier scores for probability prediction accuracy
 
-📝 Conclusion
+Random Forest: Achieved high classification accuracy but its probability estimates were slightly overconfident.
 
-Random Forest: High classification accuracy but slightly overconfident probability estimates
+SVC with Calibration: Produced more reliable probability predictions with a multi-class Brier score of 0.87, showing good calibration.
 
-SVC with Calibration: Lower raw accuracy, but better-calibrated probability predictions
-
-Probability calibration improves reliability of predictions for multi-class classification
+Overall Insight: Incorporating probability calibration improves the reliability of model predictions, which is especially useful for multi-class classification tasks like star type prediction.
 
 ### HR Diagram of Star Types
 ![HR Diagram](images/hr_diagram.png)
@@ -80,7 +78,7 @@ Probability calibration improves reliability of predictions for multi-class clas
 ### SVC Calibration Curve
 ![SVC Calibration](images/calibration_curve.png)
 
-🚀 Future Work
+# 🚀 Future Work
 
 Hyperparameter tuning using GridSearchCV/RandomizedSearchCV
 
