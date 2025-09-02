@@ -7,6 +7,10 @@ This project classifies stars into six categories—Red Dwarf, Brown Dwarf, Whit
 
 ## 📂 Dataset Details
 
+- **Source:** Kaggle “Star type Classification” dataset  
+- **Link:** [Stars.csv](https://www.kaggle.com/datasets/brsdincer/star-type-classification)
+
+
 Features:
 
 Temperature (K): Surface temperature of the star
